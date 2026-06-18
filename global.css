@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "uniwind";
+
+@layer utilities {
+  .text-h1 {
+    @apply text-[30px] font-extrabold tracking-tight text-neutral-900;
+  }
+  .text-h2 {
+    @apply text-[18px] font-bold text-neutral-900;
+  }
+  .text-t1 {
+    @apply text-[16px] font-bold text-neutral-900;
+  }
+  .text-b1 {
+    @apply text-[14px] font-medium text-neutral-500;
+  }
+  .text-c1 {
+    @apply text-[12px] font-medium text-neutral-400;
+  }
+}
+
+@source "./app";
+@source "./src";
