@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+<h1 align="center">🏢 Condominio - Mobile Management App</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  A comprehensive cross-platform mobile application developed for condominium residents and administration to centralize daily operations, financial management, and real-time communication.
+</p>
 
-## Get started
+## 📱 About The Project
 
-1. Install dependencies
+Condominio solves the communication and administrative gap in residential complexes. It provides a unified platform where residents can check their financial status, authorize visitors via QR codes, track packages, and chat in real-time with the administration.
 
-   ```bash
-   npm install
-   ```
+### 🛠️ Built With
 
-2. Start the app
+* **Frontend:** React Native, Expo, TypeScript
+* **State Management:** Zustand
+* **Styling:** Uniwind
+* **Real-time & Notifications:** Socket.IO, Firebase Cloud Messaging (FCM)
+* **API & Auth:** REST APIs, Axios, JWT
+* **Other:** QR Code generation
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Key Features
 
-In the output, you'll find options to open the app in a
+- **🔐 Secure Access Control:** JWT-based authentication with secure session management.
+- **🎫 QR Visitor Authorization:** Generation of unique QR codes and access pins for different types of visitors.
+- **💬 Real-Time Chat:** Instant communication channel between residents and administration using Socket.IO.
+- **🔔 Push Notifications:** Integrated with Firebase Cloud Messaging to alert users about payments, visitors, and packages.
+- **💰 Financial Management:** Track payment history, upcoming debts, and submit payment proofs directly from the app.
+- **📦 Package Tracking:** Real-time updates on package deliveries and statuses.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧠 What I Learned & Challenges Overcome
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Developing this application from scratch during my professional internship taught me how to handle complex mobile states and real-time data:
+- **Real-Time Infrastructure:** Integrating Socket.IO in a React Native environment required careful lifecycle management to prevent memory leaks and ensure the connection stayed alive in the background.
+- **Push Notifications:** Implementing Firebase Cloud Messaging for iOS and Android involved managing device tokens and handling notification interactions when the app is both foregrounded and backgrounded.
+- **API Integration:** Learned to effectively manage asynchronous data fetching and global state using Zustand, significantly reducing prop-drilling compared to Context API.
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+To run this project locally:
 
-```bash
-npm run reset-project
-```
+\```bash
+# Clone the repository
+git clone https://github.com/Osvaldorg/Condominio.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
+# Set up environment variables
+# Create a .env file based on .env.example
 
-To learn more about developing your project with Expo, look at the following resources:
+# Start the Expo development server
+npx expo start
+\```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
