@@ -45,7 +45,7 @@ git clone https://github.com/Osvaldorg/Condominio.git
 npm install
 
 # Set up environment variables
-# Create a .env file based on .env.example
+# Create a .env file based on your api keys
 
 # Start the Expo development server
 npx expo start
