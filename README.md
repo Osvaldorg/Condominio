@@ -28,8 +28,8 @@ Condominio solves the communication and administrative gap in residential comple
 
 ## 🧠 What I Learned & Challenges Overcome
 
-Developing this application from scratch during my professional internship taught me how to handle complex mobile states and real-time data:
-- **Real-Time Infrastructure:** Integrating Socket.IO in a React Native environment required careful lifecycle management to prevent memory leaks and ensure the connection stayed alive in the background.
+Developing this mobile application during my professional internship taught me how to handle complex mobile states and real-time data:
+- **Real-Time Infrastructure:** Integrating Socket.IO in a React Native environment required careful lifecycle management to prevent memory leaks and required careful lifecycle management and reconnection handling.
 - **Push Notifications:** Implementing Firebase Cloud Messaging for iOS and Android involved managing device tokens and handling notification interactions when the app is both foregrounded and backgrounded.
 - **API Integration:** Learned to effectively manage asynchronous data fetching and global state using Zustand, significantly reducing prop-drilling compared to Context API.
 
